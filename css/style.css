@@ -1,0 +1,101 @@
+body {
+  background-color: #aeb8fe;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#dice,
+#dice1,
+#dice2,
+#dice3,
+#dice4,
+#dice5,
+#dice6 {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #efe5dc;
+  margin: 100px;
+  display: none;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+}
+.dot2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.dot3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.dot4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.dot5 {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.dot6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 60px;
+}
+.dot7 {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 35px;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+#dice {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
